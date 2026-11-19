@@ -4,7 +4,7 @@ def add(a,b):
 def subtract (a,b):
 	return a-b
 def multiply (a,b):
-	return  a*b
+	return  a+b
 def divide (a,b):
 	return a/b
 def CiricleArea(r):
@@ -12,6 +12,7 @@ def CiricleArea(r):
 		return 3.14 * r * r
 	else:
 		return "Error"
+
 
 def main():
 	while True:
